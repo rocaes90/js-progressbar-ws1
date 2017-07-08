@@ -7,7 +7,7 @@ Its a personal project for a JavaScript Progress Bar implementation.
 
 ### Public link
 ```
-[https://test-workshop-52d8e.firebaseapp.com/]
+[Link to application hosted in Firebase](https://test-workshop-52d8e.firebaseapp.com/)
 ```
 
 ### App Structure
