@@ -1,0 +1,93 @@
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+#txtTest {
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+.container {
+    position: relative;    
+    width: 70%;
+    margin: auto;
+    padding: 0 0 10px 0;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #ebebeb;
+    max-width: 550px;
+}
+.container-subtitle {
+    padding: 3px 0 0 10px;
+    position: relative;
+    margin: 0 auto 10px 0;
+    background: black;
+    color: white;
+    font-size: 15px;
+    height: 20px;
+    border-radius: 10px;
+}
+.content {
+    width: 95%;
+    padding: 10px 0;
+    background-color: white;
+}
+.subtitle {
+    position: relative;
+    float: left;
+    display: inline-block;
+    margin: 13px 0px 0 0;
+    width: 20%;
+    text-align: right;
+    font-weight: bold;
+    color: gray;
+}
+#progressContainer {  
+    width: 75%;
+    overflow: hidden;
+    float: right;
+    margin: 0 20px 0 0;
+}
+#myProgress {
+    width: 80%;
+    margin: 15px 0 20px 0;
+    background-color: grey;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+}
+#myBar {
+    width: 10%;
+    height: 15px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+    border-radius: 5px; 
+}
+#indicator {
+    position: absolute;
+}
+#targetInfo {
+    position: relative;
+    float: right;    
+    background-color: #929292;
+    height: 60px;
+    width: 15%;
+    border: 1px solid black;
+    font-weight: bold;
+    color: white;
+}
+#targetInfo span {    
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+#information {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
